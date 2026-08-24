@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Ana",
+    "situacao": "aprovado"
+  },
+  {
+    "nome": "Bruno",
+    "situacao": "recuperação"
+  },
+  {
+    "nome": "Carla",
+    "situacao": "aprovado"
+  },
+  {
+    "nome": "Diego",
+    "situacao": "recuperação"
+  },
+  {
+    "nome": "Elis",
+    "situacao": "aprovado"
+  }
+]
