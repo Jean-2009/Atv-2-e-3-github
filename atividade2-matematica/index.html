@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Função Quadrática</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Calculadora de Função Quadrática</h1>
+    <p class="subtitle">f(x) = ax² + bx + c</p>
+  </header>
+
+  <main>
+    <section class="painel">
+      <form id="form-quadratica">
+        <label>
+          a
+          <input type="number" id="input-a" value="1" step="any" required>
+        </label>
+        <label>
+          b
+          <input type="number" id="input-b" value="-2" step="any" required>
+        </label>
+        <label>
+          c
+          <input type="number" id="input-c" value="-3" step="any" required>
+        </label>
+        <button type="submit">Calcular</button>
+      </form>
+
+      <div id="resultado" class="resultado" aria-live="polite">
+        Preencha os coeficientes e clique em "Calcular".
+      </div>
+    </section>
+
+    <section class="grafico">
+      <canvas id="canvas-grafico" width="560" height="420"></canvas>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto de matemática — reaproveitado como exemplo de repositório antigo para a atividade de Git/GitHub.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
